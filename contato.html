@@ -3,19 +3,84 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Possui alguma sugestão? — LB &amp; Sound</title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Pagina de contato do projeto LB & Sound para receber sugestoes sobre musica, generos e artistas.">
+<title>Fale Conosco - LB &amp; Sound</title>
 </head>
 <body>
-    
-<div class="footer-col">
-      <h4>Fale Conosco</h4>
-      <div class="footer-contact-form">
-        <input type="text" placeholder="Seu nome"> <br>
-        <input type="email" placeholder="Seu e-mail"> <br>
-        <textarea placeholder="Sua mensagem..."></textarea>
-        <button type="button">Enviar</button>
-      </div>
-    </div>
 
+<nav>
+  <a class="nav-logo" href="index.html">LB &amp; Sound</a>
+  <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="Martistas.html">Artistas</a></li>
+    <li><a href="Mrock.html">Rock</a></li>
+    <li><a href="Mrap_hiphop.html">Rap</a></li>
+    <li><a href="Mjazz.html">Jazz</a></li>
+    <li><a href="Mpop.html">Pop</a></li>
+    <li><a href="Meletronica.html">Eletronica</a></li>
+    <li><a href="Mbossanova.html">Bossa Nova</a></li>
+    <li><a href="Mgospel.html">Gospel</a></li>
+    <li><a href="Msamba.html">Samba</a></li>
+    <li><a href="contato.html" class="active">Fale Conosco</a></li>
+    <li><a href="https://www.uniube.br/" target="_blank" rel="noopener"><img src="imagens/logoUniube.png" alt="Logo Uniube"></a></li>
+  </ul>
+</nav>
+
+
+<header class="site-hero">
+<p class="hero-eyebrow">Contato</p>
+<h1 class="hero-title">
+  Possui alguma
+  <span class="accent">sugestao?</span>
+</h1>
+<p class="hero-sub">
+  Envie ideias de artistas, generos ou melhorias para deixar o projeto mais completo.
+</p>
+
+</header>
+<div class="divider"></div>
+
+<main class="section">
+  <div class="contact-panel">
+    <form class="contact-form">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" placeholder="Sua mensagem..." required></textarea>
+      <button type="submit">Enviar</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>LB &amp; Sound</h4>
+      <p>Um projeto sobre como a musica moldou culturas, movimentos sociais e geracoes ao longo da historia.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Paginas</h4>
+      <a href="index.html">Inicio</a>
+      <a href="Martistas.html">Artistas</a>
+      <a href="Mrock.html">Rock</a>
+      <a href="Mrap_hiphop.html">Rap &amp; Hip-Hop</a>
+      <a href="Mjazz.html">Jazz</a>
+      <a href="Mpop.html">Pop</a>
+      <a href="Meletronica.html">Eletronica</a>
+      <a href="Mbossanova.html">Bossa Nova</a>
+      <a href="Mgospel.html">Gospel</a>
+      <a href="Msamba.html">Samba</a>
+    </div>
+    <div class="footer-bottom-left">
+      <span>Leonardo Augusto Rodrigues Borges</span> &nbsp;|&nbsp; RA: 5165992<br>
+      Como a Musica Influencia o Mundo
+    </div>
+    <div class="footer-bottom-right">LB &amp; Sound &copy; 2026</div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
